@@ -1,0 +1,7 @@
+__pycache__/
+# runtime data written by db.py
+data.log
+data.json
+temp.json
+# stray editor file
+'
