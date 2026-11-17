@@ -3,5 +3,6 @@ __pycache__/
 data.log
 data.json
 temp.json
+*.db
 # stray editor file
 '
