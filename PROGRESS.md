@@ -11,8 +11,8 @@
   - [x] Classes and inheritance (`try_classes.py`)
   - [x] `database.py`: connection, row_factory, foreign keys, tables
   - [x] `CrudBase`: allow-list, find, find_page, insert, update, delete
-  - [ ] `insert` accepts a list
-  - [ ] Repositories: UserRepository, EventRepository
+  - [x] `insert` accepts a list
+  - [x] Repositories: UserRepository, EventRepository
   - [ ] Services: UserService, EventService
   - [ ] `main.py` demo
   - [ ] Answer the 5 "check your understanding" questions

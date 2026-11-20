@@ -18,6 +18,8 @@ class CrudBase:
                 raise ValueError("The coloumn doesnt exist")
 
     def insert(self, data):
+        if isinstance(data, list):
+            return [self.insert(d) for d in data]
         self.check_columns(data)
         cols = ", ".join(data.keys())
         values = ", ".join(["?"] * len(data))
