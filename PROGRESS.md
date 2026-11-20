@@ -6,16 +6,16 @@
 - [x] 3. REST API on the database: GET / PUT / PATCH / DELETE
 - [x] 4. Event tracking API
 - [x] 5. Activity sessions
-- [ ] 6. Stage 1: reusable CRUD system (`crud/`)
+- [x] 6. Stage 1: reusable CRUD system (`crud/`)
   - [x] SQLite by hand (`try_sqlite.py`): 4 statements, `?`, injection demo
   - [x] Classes and inheritance (`try_classes.py`)
   - [x] `database.py`: connection, row_factory, foreign keys, tables
   - [x] `CrudBase`: allow-list, find, find_page, insert, update, delete
   - [x] `insert` accepts a list
   - [x] Repositories: UserRepository, EventRepository
-  - [ ] Services: UserService, EventService
-  - [ ] `main.py` demo
-  - [ ] Answer the 5 "check your understanding" questions
+  - [x] Services: UserService, EventService
+  - [x] `main.py` demo
+  - [x] Answer the 5 "check your understanding" questions (all right; Q1/Q5 skipped the "what if not" / "what doesn't change" half)
 
 ## Quiz log
 ✅ right · 🟡 half · ❌ wrong
