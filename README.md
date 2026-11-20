@@ -23,4 +23,4 @@ cd database && python3 db.py                  # interactive REPL: set / get / up
 cd database && python3 server.py              # HTTP API on http://127.0.0.1:8080
 ```
 
-Each folder has its own README / LEARNINGS file with details.
+Each folder has its own README / LEARNINGS file with details. Progress and quiz log: [PROGRESS.md](PROGRESS.md).

@@ -80,7 +80,7 @@ if __name__ == "__main__":
     conn = get_connection()
     crud = CrudBase(conn, "users")
 
-    uid = crud.insert({"name": "Aswin", "email": "test@x.com"})
+    uid = crud.insert({"name": "Aswin", "email": "test5@x.com"})
     print(
         crud.find(where={"id": uid})
     )  # [{'id': 1, 'name': 'Aswin', 'email': 'test@x.com'}]
